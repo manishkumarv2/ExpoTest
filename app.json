@@ -12,6 +12,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "githubUrl": "https://github.com/manishkumarv2/ExpoTest",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,7 +25,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.v2solutions.TestExpo"
+    },
+    "android": {
+      "package": "com.v2solutions.TestExpo"
     }
   }
 }
